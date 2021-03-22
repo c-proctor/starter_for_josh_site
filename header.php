@@ -29,6 +29,8 @@
 		         echo ' - page '. $paged; }
 		   ?>
     </title>
+    
+    <meta name="description" content="<?php bloginfo('description'); ?>">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
